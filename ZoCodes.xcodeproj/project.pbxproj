@@ -11,6 +11,8 @@
 		738F61452A39F564004FD437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F61442A39F564004FD437 /* ContentView.swift */; };
 		738F61472A39F566004FD437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738F61462A39F566004FD437 /* Assets.xcassets */; };
 		738F614A2A39F566004FD437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738F61492A39F566004FD437 /* Preview Assets.xcassets */; };
+		738F61522A39F8E0004FD437 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 738F61512A39F8E0004FD437 /* PressStart2P-Regular.ttf */; };
+		738F61552A3A0796004FD437 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F61542A3A0796004FD437 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		738F61442A39F564004FD437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		738F61462A39F566004FD437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		738F61492A39F566004FD437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		738F61512A39F8E0004FD437 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		738F61532A39F99B004FD437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		738F61542A3A0796004FD437 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		738F61412A39F564004FD437 /* ZoCodes */ = {
 			isa = PBXGroup;
 			children = (
+				738F61532A39F99B004FD437 /* Info.plist */,
+				738F61502A39F8B4004FD437 /* fonts */,
 				738F61422A39F564004FD437 /* ZoCodesApp.swift */,
 				738F61442A39F564004FD437 /* ContentView.swift */,
+				738F61542A3A0796004FD437 /* InfoView.swift */,
 				738F61462A39F566004FD437 /* Assets.xcassets */,
 				738F61482A39F566004FD437 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				738F61492A39F566004FD437 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		738F61502A39F8B4004FD437 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				738F61512A39F8E0004FD437 /* PressStart2P-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				738F61522A39F8E0004FD437 /* PressStart2P-Regular.ttf in Resources */,
 				738F614A2A39F566004FD437 /* Preview Assets.xcassets in Resources */,
 				738F61472A39F566004FD437 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				738F61452A39F564004FD437 /* ContentView.swift in Sources */,
+				738F61552A3A0796004FD437 /* InfoView.swift in Sources */,
 				738F61432A39F564004FD437 /* ZoCodesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +285,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZoCodes/Preview Content\"";
+				DEVELOPMENT_TEAM = V34H55756F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoCodes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +315,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZoCodes/Preview Content\"";
+				DEVELOPMENT_TEAM = V34H55756F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoCodes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
